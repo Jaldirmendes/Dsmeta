@@ -1,7 +1,7 @@
-import logo from '../../assets/img/logo.svg'
-import linkedin from '../../assets/img/linkedin-svgrepo-com-2.svg'
+import logo from '../../assets/img/logo.svg';
+import linkedin from '../../assets/img/linkedin-svgrepo-com-2.svg';
 
-import './styles.css'
+import './styles.css';
 
 function Header() {
   return (

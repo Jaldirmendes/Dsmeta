@@ -1,30 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-
-* {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body,
-html {
-  background-color: #000;
-  color: #fff;
-}
-
-a,
-a:hover,
-a:visited {
-  color: unset;
-  text-decoration: none;
-}
-
-.dsmeta-logo-container p {
-  font-size: 14px;
-  font-weight: 300;
-}
-
 .dsmeta-card {
   background-color: #283142;
   border-radius: 10px;
@@ -32,25 +5,26 @@ a:visited {
 }
 
 .dsmeta-sales-title {
-  color: #676fff;
+  color: #676FFF;
   font-size: 24px;
   margin-bottom: 20px;
 }
 
 .dsmeta-form-control-container {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   max-width: 300px;
 }
 
 .dsmeta-form-control {
   width: 100%;
   height: 46px;
-  background-color: #1b2531;
+  background-color: #1B2531;
   border: 1px solid #384459;
   border-radius: 5px;
-  color: #9aaabe;
+  color: #9AAABE;
   padding: 0 20px;
   font-size: 18px;
+  outline: none;
 }
 
 .dsmeta-sales-table {
@@ -62,63 +36,64 @@ a:visited {
 .dsmeta-sales-table thead {
   height: 55px;
   font-size: 16px;
-  color: #e9e9e9;
   font-weight: 700;
+  color: #E9E9E9;
 }
 
 .dsmeta-sales-table tbody {
   font-size: 14px;
   font-weight: 400;
-  color: #cfcfcf;
+  color: #CFCFCF;
   text-align: center;
 }
 
 .dsmeta-sales-table tbody tr {
   height: 74px;
-  border-top: 1px solid #5f6e82;
+  border-top: 1px solid #5F6E82;
 }
 
-.dsmeta-sales-table tbody tr:hover > td {
+.dsmeta-sales-table tbody tr:hover>td {
   background-color: #384459;
 }
 
 .dsmeta-sales-table tbody tr:nth-child(odd) {
-  background-color: #242c3b;
+  background-color: #242C3B;
 }
 
 .dsmeta-red-btn-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.show576 {
-    display: none;
+.show-data-576 {
+  display: none;
 }
 
 .show992 {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 576px) {
-    .show576 {
-        display: table-cell;
-    }
+  .show-data-576 {
+      display: table-cell;
+  }
 
-    .dsmeta-card {
-        padding: 35px;
-    }
+  .dsmeta-card {
+      padding: 35px;
+  }
 
-    .dsmeta-sales-table tbody tr {
-        height: 55px;
-    }
+  .dsmeta-sales-table tbody tr {
+      height: 55px;
+  }
+  
+  .dsmeta-sales-table tbody {
+      font-size: 18px;
 
-    .dsmeta-sales-table tbody {
-        font-size: 18px;
-    }
+  }
 }
 
 @media (min-width: 992px) {
-    .show992 {
-        display: table-cell;
-    }
+  .show992 {
+      display: table-cell;
+  }
 }

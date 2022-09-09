@@ -12,11 +12,21 @@ header {
     align-items: center;
   }
   
-  .dsmeta-logo-container img {
-    width: 235px;
+  .dsmeta-logo-container-img{
+    width: 250px;
   }
   
   .dsmeta-logo-container h1 {
     margin-top: 15px;
     font-size: 24px;
+  }
+
+  .d-flex {
+    display: flex;
+    align-items: center;
+  }
+  .logo-linkedin {
+    max-height: 15px;
+    max-width: 15px;
+    margin-left: auto;
   }
